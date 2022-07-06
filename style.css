@@ -1,6 +1,177 @@
-body{
-    background-image: url("images/donation0.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    padding: 0% 15%;
+}
+
+.background-img {
+    background-image: url("images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.tittle {
+    margin-top: 100px;
+    font-size: 110px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.pera {
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.button {
+    margin-top: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(220, 92, 92);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.donat-today {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.donat-today h1 {
+    font-size: 70px;
+}
+
+.donat-today p {
+    font-size: 24px;
+    color: rgb(68, 66, 66);
+}
+
+.donat-ammount {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.donat-ammount p {
+    font-size: 80px;
+    padding: 10px 20px;
+    font-weight: 700;
+    color: rgb(92, 88, 88);
+}
+
+
+
+.hr-div {
+    margin-bottom: 40px;
+}
+
+.hr {
+    width: 75%;
+    margin-bottom: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.donet-plan {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.donet-plan h1 {
+    font-size: 70px;
+}
+
+.rad {
+    border: 2px solid tomato;
+    border-radius: 4px;
+    background-color: rgb(245, 224, 224);
+    color: tomato;
+    padding: 40px 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.icon {
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.card {
+    margin: auto;
+}
+
+
+.card-item-1 {
+    margin-right: 10px;
+    padding: 50px 20px;
+    background-color: rgb(153, 225, 250);
+    border-radius: 4px;
+}
+
+.card-item-2 {
+    margin-right: 10px;
+    padding: 50px 20px;
+    background-color: rgb(229, 236, 121);
+    border-radius: 4px;
+}
+
+.card-item-3 {
+    margin-right: 10px;
+    padding: 50px 20px;
+    background-color: rgb(255, 187, 145);
+    border-radius: 4px;
+}
+
+.half-width {
+    width: 50%;
+    margin-top: 10%;
+}
+
+.half-width h1 {
+    font-size: 70px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.contribute-box-1 {
+    display: flex;
+}
+
+.contribute-box-2 {
+    display: flex;
+}
+
+.box-1 {
+    padding-right: 50px;
+}
+
+.box-2 {
+    padding-left: 50px;
+}
+
+
+/* .donat-ammount p .rad {
+    color: rgb(255, 34, 34);
+} */
